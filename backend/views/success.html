@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>success</title>
+    <style>
+      .bg {
+        height: 97vh;
+        width: 98vw;
+        z-index: 1;
+        filter: blur(8px);
+      }
+      .box {
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f3f3f3;
+        text-align: center;
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        padding: 20px;
+      }
+      img {
+        height: 150px;
+        width: 150px;
+      }
+      p {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="/img.jpg" alt="" class="bg" />
+    <div class="box">
+      <img src="/check.png" alt="" />
+      <h1>Status :</h1>
+      <p>Verified</p>
+    </div>
+  </body>
+</html>
